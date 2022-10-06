@@ -3,4 +3,4 @@ Stata module that computes the decomposition of the impact of a tax on social we
 
 Installation from GitHub:
 
-. In Stata type: net install kaksongen, replace from(https://raw.githubusercontent.com/MarkoLedic/kaksongen/main/)
+. net install kaksongen, replace from(https://raw.githubusercontent.com/MarkoLedic/kaksongen/main/)
