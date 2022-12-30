@@ -13,4 +13,3 @@ Changes:
 
 15jul2022 (version 1.0.0)
 - kaksongen submitted on GitHub
-
