@@ -133,7 +133,7 @@ The latest version of {cmd:kaksongen} is available {browse "https://github.com/i
 
 {pstd}If you have a question on the current version, or have an idea of how to improve it, or you encounter a bug, please write us at any of the e-mail addressed above.
 
-{pstd}Please cite the package as follows: [TO BE ADDED LATER]
+{pstd}Please cite the package as follows: Ledić, M., Rubil, I. & Urban, I. (2022). kaksongen: Stata module for computing the decomposition of the social welfare impact of taxation [Stata package]. {browse "https://github.com/irubil/kaksongen"} 
 
 {hline}
 
