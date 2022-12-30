@@ -1,4 +1,5 @@
-* version 1.0.0, March 2022
+* version 1.0.0, July 2022
+* Marko Ledić, Ivica Rubil, Ivica Urban
 
 cap prog drop kaksongen
 prog kaksongen, rclass sortpreserve
@@ -6,8 +7,8 @@ prog kaksongen, rclass sortpreserve
 
 	version 15.1
 
-	
-	syntax varlist(min=2 max=2 numeric) [aweight] [if] [in],   ///
+	 
+	syntax varlist(min=2 max=2 numeric) [aweight] [if] [in],       ///
 		   ALPHA(numlist min=1 max=101 ascending >=0 <=1)      ///
 		   [                                                   ///
 		   RHO(real 2)                                         /// 
@@ -137,8 +138,8 @@ prog kaksongen, rclass sortpreserve
 	}
 	
 	forval a = 1/`nofalphas' {
-		mat results`a'   = `alpha`a''                   \ ///
-		                   `rho'                        \ ///
+		mat results`a'   = `alpha`a''                                   \ ///
+		                   `rho'                                        \ ///
 						   `DeltaW'                     \ ///
 						   `N_alpha`a''                 \ ///
 						   `P_alpha`a''                 \ ///
@@ -214,7 +215,7 @@ prog kaksongen, rclass sortpreserve
 	}
 	
 	if ("`graph'" == "graph" & "`asvariables'" == "asvariables") {
-			graph twoway con DeltaW N_alpha P_alpha H alpha,                 ///
+			graph twoway con DeltaW N_alpha P_alpha H alpha,     ///
             xti("{&alpha}")                                                  ///
             leg(order(1 "{&Delta}W" 2 "N({&alpha})" 3 "P({&alpha})" 4 "H"))  ///
 			`options'			
