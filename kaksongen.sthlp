@@ -115,7 +115,7 @@ tau_over_tau_star_alpha, Gx, Gy, Dy, Dt, mux, muy, mut. Some of these vary by al
 {title:Latest version}
 
 {phang}
-The latest version of {cmd:kaksongen} is available {browse "https://github.com/irubil/kaksongen":here}.
+The latest version of {cmd:kaksongen} is available {browse "https://github.com/irubil/kaksongen":here} or {browse "https://github.com/MarkoLedic/kaksongen":here}.
 
 {hline}
 
