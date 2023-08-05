@@ -6,7 +6,7 @@ You can install the latest version by executing the following code in Stata: \
 net install kaksongen, replace from(https://raw.githubusercontent.com/MarkoLedic/kaksongen/main/)
 
 # Authors
-Marko Ledić, Faculty of Economics and Business, University of Zagreb, markoledic@gmail.com \
+Marko Ledić, The Institute of Economics, Zagreb, markoledic@gmail.com \
 Ivica Rubil, The Institute of Economics, Zagreb, irubil@gmail.com \
 Ivica Urban, Institute of Public Finance, Zagreb, urbanivica@gmail.com
 
